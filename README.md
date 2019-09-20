@@ -3,7 +3,9 @@
 
 :warning: 以下の様な対応で commit log を削除できます。commit log を削除することで GitHub 上で問題のある commit に辿り着くことは困難になりますが、commit hash が分かれば、以下の対応をしていたとしても閲覧することができます。完全に見られないようにするためには、下記ページから引用すると以下のようになります。
 
-> GitHub では、リポジトリに既存のクローンやフォークについては何もできませんが、キャッシュされているビューや、プルリクエストでの機密データへの参照は、GitHub Supportまたは GitHub Premium Support へ連絡することにより恒久的に削除することができます。
+> 警告: コミットを GitHub にプッシュしたら、そこに含まれるデータが危険にさらされることを考慮する必要があります。パスワードをコミットした場合は、変更してください。 キーをコミットした場合は、新たに生成してください。
+
+> この記事では、機密データを含むコミットに GitHub リポジトリのブランチやタグから到達できないようにする方法を説明しています。 ただし、こうしたコミットも、リポジトリのクローンやフォークからは、GitHub でキャッシュされているビューの SHA-1 ハッシュによって直接、また参照元のプルリクエストによって、到達できる可能性があることに注意することが重要です。 GitHub では、リポジトリに既存のクローンやフォークについては何もできませんが、キャッシュされているビューや、プルリクエストでの機密データへの参照は、GitHub Supportまたは GitHub Premium Support へ連絡することにより恒久的に削除することができます。
 
 - https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
 - https://help.github.com/ja/articles/removing-sensitive-data-from-a-repository
