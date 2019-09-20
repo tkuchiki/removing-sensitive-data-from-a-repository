@@ -1,7 +1,7 @@
 # removing-sensitive-data-from-a-repository
 
 
-:caution: 以下の様な対応で commit log を削除できます。commit log を削除することで GitHub 上で問題のある commit に辿り着くことは困難になりますが、commit hash が分かれば、以下の対応をしていたとしても閲覧することができます。完全に見られないようにするためには、下記ページから引用すると以下のようになります。
+:warning: 以下の様な対応で commit log を削除できます。commit log を削除することで GitHub 上で問題のある commit に辿り着くことは困難になりますが、commit hash が分かれば、以下の対応をしていたとしても閲覧することができます。完全に見られないようにするためには、下記ページから引用すると以下のようになります。
 
 > GitHub では、リポジトリに既存のクローンやフォークについては何もできませんが、キャッシュされているビューや、プルリクエストでの機密データへの参照は、GitHub Supportまたは GitHub Premium Support へ連絡することにより恒久的に削除することができます。
 
